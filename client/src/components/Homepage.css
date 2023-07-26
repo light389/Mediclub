@@ -1,0 +1,88 @@
+.Main{
+    width: 100%;
+    height: 88.3vh;
+    background-color: aliceblue;
+    display: flex;
+    
+}
+.Left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Doctor_img img{
+    width: 35rem;
+}
+.Right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Right p{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.Right h1 span{
+    font-weight: 900;
+    color: aquamarine;
+}
+.Cards{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+}
+.New{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.left_card{
+    width: 20rem;
+    height: 14rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: antiquewhite;
+    border-radius: 2em;
+    flex-direction: column;
+    
+}
+.left_card a{
+    text-decoration: none;
+}
+.left_card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.left_card img{
+    width: 8rem;
+    height: 8rem;
+}
+.right_card{
+    width: 20rem;
+    height: 14rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: antiquewhite;
+    border-radius: 2em;
+    flex-direction: column;
+
+}
+.right_card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.right_card img{
+    width: 8rem;
+    height: 8rem;
+    
+}

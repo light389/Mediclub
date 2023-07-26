@@ -1,0 +1,14 @@
+.New_btn{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+border: none;
+    background-color: aliceblue;
+    margin-top: 2rem;
+}
+
+.New_btn:hover{
+    background-color: #000;
+    transition: all 0.8s;
+    color: #fff;
+}

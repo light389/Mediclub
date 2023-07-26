@@ -1,0 +1,60 @@
+.Top{
+
+    width: 100%;
+    height: 5.5rem;
+    /* background-color: rgba(0, 0, 0, 0.04); */
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    margin: 0;
+}
+
+.left{
+    display: flex;
+ 
+    align-items: center;
+    width: 30%;
+
+}
+.right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.img{
+    display: flex;
+    align-items: center;
+}
+.img h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.img img{
+    width: 6.8rem;
+}
+.phone{
+    display: flex;
+    margin-right: 2rem;
+    align-items: center;
+
+}
+.phone p{
+    margin-left: 1rem;
+    text-align: center;
+}
+.phone img{
+    width: 2rem;
+    height: 2rem;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.email p{
+    margin-left: 1rem;
+    text-align: center;
+}
+.email img{
+    width: 2rem;
+}
